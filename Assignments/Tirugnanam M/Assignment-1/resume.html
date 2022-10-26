@@ -1,285 +1,304 @@
+<!DOCTYPE html>
+
 <html>
 
-<head>
-    <title>Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-</head>
+    <head>
 
+        <title> My Profile</title>
 
-<style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Times New Roman"
-    }
+        <link rel="icon" href="images/profile icon.jpg">
 
-    td {
-        border: 2px solid rgba(0, 128, 128, 0.671);
-        padding: 5px 5px 5px 5px;
-        text-align: center;
-    }
+        <meta charset="utf-8">
 
-    th {
-        border: 2px solid rgba(0, 128, 128, 0.671);
-        padding: 5px 5px 5px 5px;
-        text-align: center;
-        font-size: larger;
-    }
-    a
-    {
-        text-decoration: none;
-    }
-    a:visited {
-        color: pink;
-        background-color: transparent;
-        text-decoration: none;
-    }
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    a:hover {
-        color: blue;
-        background-color: transparent;
-        text-decoration: none;
-        text-decoration: underline;
-    }
-</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
-<body>
-    <div style="min-width: 950px; max-width: 1000px; margin: auto;">
-        <div style="float:left; width:31.5%; padding-top:30px">
-            <div style="box-shadow: 0px 0px 25px gray;">
-                <div>
-                    <img src="Tirugnanam.jpg" style="width:100%" alt="Profile Picture">
-                    <h2 style="padding:0px 20px 0px 20px; position: relative; color:black">TIRUGNANAM M</h2>
-                </div>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-                <div style="padding:0px 20px 20px 20px">
-                    <h2>Contact</h2>
-                    <p style="font-size:20px"><i class='fa fa-briefcase' style='color:teal; margin:5px;'></i>Student</p>
-                    <p style="font-size:20px"><i class='fa fa-home' style='color:teal;margin:5px;'></i>Tamil Nadu, India
-                    </p>
-                    <p style="font-size:20px"><i class='fa fa-envelope'
-                            style='color:teal;margin:5px; '></i>1912032@nec.edu.in</p>
-                    <p style="font-size:20px"><i class='fa fa-phone' style='color:teal;margin:5px;'></i>6380049955</p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-                    <hr>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-                    <h2>Skills</h2>
-                    <p style="font-size:20px">C</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100" style="width:75%; background-color: teal; border-radius:20px">75%</div>
-                    </div>
-                    <p style="font-size:20px">C++</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                            aria-valuemax="100" style="width:60%; background-color: teal; border-radius:20px">60%</div>
-                    </div>
-                    <p style="font-size:20px">Python</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100" style="width:70%; background-color: teal; border-radius:20px">70%</div>
-                    </div>
-                    <p style="font-size:20px">SQL</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100" style="width:75%; background-color: teal; border-radius:20px">75%</div>
-                    </div>
-                    <p style="font-size:20px">Java</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                            aria-valuemax="100" style="width:80%; background-color: teal; border-radius:20px">80%</div>
-                    </div>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
-                    <hr>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-                    <h2>Languages</h2>
-                    <p style="font-size:20px">Tamil (தமிழ்)</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
-                            aria-valuemax="100" style="width:92%; background-color: teal; border-radius:20px"></div>
-                    </div>
-                    <p style="font-size:20px">English</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100" style="width:75%; background-color: teal; border-radius:20px"></div>
-                    </div>
-                    <p style="font-size:20px">Hindi (हिन्दी)</p>
-                    <div class="progress" style="border-radius:20px">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="58" aria-valuemin="0"
-                            aria-valuemax="100" style="width:58%; background-color: teal; border-radius:20px"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <style>
 
+            .progress{
 
-        <div style="float:right; width:68.5%; padding-top: 30px; padding-left: 15px;">
-            <div style="box-shadow: 0px 0px 25px gray;">
-                <div style="padding: 0px 20px 10px 20px">
-                    <h2><i class='far fa-address-card' style="padding:15px 15px 0px 0px; color: teal;"></i>Certifications</h2>
-                    <h3>NPTEL COURSES:</h3>
-                    <ul style="list-style-type:disc;">
-                        <a href="D:\Zoho web page\NPTEL19HS31S12050188191051512.jpg" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">Technical English for Engineers (course completed 72%)
-                        </li></a>
-                        <a href="D:\Zoho web page\NPTEL20CS06S1PC689397.jpg" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">Problem Solving Through Programming in C (course
-                            completed
-                            96%)</li></a>
-                        <a href="D:\Zoho web page\Programming, Data Structures and Algorithm using Python.jpeg" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">Programming, Data Structures and Algorithms using
-                            Python
-                            (63%)</li></a>
-                    </ul>
+                width: 440px;
 
-                    <hr>
+            }
 
-                    <h3>TRAININGS & CERTIFICATES:</h3>
-                    <ul style="list-style-type:square;">
-                        <a href="D:\Zoho web page\Web Development Training - Certificate of Completion.PNG" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">Internshala Web Development (06.05.2021 - 06.08.2021)
-                        </li></a>
-                        <li style="color: teal; font-size: 18px;">Infosys Certification Round 1 cleared (08.02.2022)
-                        </li>
-                    </ul>
+        </style>
 
-                    <hr>
+    </head>
 
-                    <h3>NON-CGPA Category:</h3>
-                    <ul style="list-style-type:disc;">
-                        <a href="D:\Zoho web page\Screenshot (181).png" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">BEC Vantage B1-level</li></a>
-                        <a href="D:\Zoho web page\Screenshot (180).png" target="_blank" title="View certificate">
-                        <li style="color: teal; font-size: 18px;">Diploma in Yoga for Youth Empowerment</li></a>
-                        <li style="color: teal; font-size: 18px;">Type Writing - English & Tamil (Junior) passed with
-                            Distinction</li>
-                    </ul>
+    <body> <br> <br>
 
-                    <hr>
+        <div class="container bg-white">
 
-                    <h3>CODING PLATFORM:</h3>
-                    <ul style="list-style-type: none;">
-                        <li>
-                            <h4>SKILLRACK:</h4>
-                        </li>
-                        <ul style="list-style-type:circle;">
-                            <li style="color: teal; font-size: 18px;">Bronze medals - 552, E-certificates - 11</li>
-                        </ul>
-                        <li>
-                            <h4>SOLO LEARN:</h4>
-                        </li>
-                        <ul style="list-style-type:circle;">
-                            <li style="color: teal; font-size: 18px;">C Tutorial(154 XP) , C++ Tutorial(187 XP)</li>
-                        </ul>
-                    </ul>
+            <b>TIRUGNANAM M</b>
 
-                    <hr>
+            <div class="float-right">
 
-                    <h3>AREA OF INTEREST:</h3>
-                    <ul style="list-style-type:disc;">
-                        <li style="color: teal; font-size: 18px;">Coding</li>
-                        <li style="color: teal; font-size: 18px;">DBMS</li>
-                    </ul>
+                <a href="https://www.instagram.com/narain.c.a/"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;
 
-                    <hr>
+                <a href="https://www.facebook.com/narain.ca.3/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp;
 
-                    <h3>PROJECTS:</h3>
-                    <ol style="list-style-type:decimal;">
-                        <li style="color: teal; font-size: 18px;">Mess Management App (pursuing)</li>
-                        <li style="color: teal; font-size: 18px;">Weather Monitoring System using IOT</li>
-                    </ol>
-                </div>
-            </div>
+                <a href="https://twitter.com/narain_c_a"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;
 
+                <a href="https://github.com/c-a-narain"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;
 
+            </div> <br> <br>
 
-            <div style="padding-top:10px;">
-                <div style="box-shadow: 0px 0px 25px gray; ">
-                    <div style="padding: 0px 20px 50px 20px">
-                        <h2><i class='fas fa-school' style="padding:10px 15px 0px 0px; color: teal;"></i>Education</h2>
-                        <a href="https://www.schoolandcollegelistings.com/IN/Tirunelveli/130671110305365/IIPE-Laxmi-Raman-Matriculation-Higher-Secondary-School" target="_blank" title="View IIPE Laxmi Raman Matric Hr Sec School">
-                            <p style="color: teal; float: left; text-align: center; font-size: 20px"><i
-                                class='fas fa-chalkboard-teacher' style="padding:0px 10px 0px 15px;"></i>IIPE Laxmi
-                            Raman
-                            Matric
-                            Higher Secondary School,<br>Uthamapandiankulam, Tirunelveli</p>
-                        </a>
-                        <div style="padding-left: 15px; padding-right: 45px;">
-                            <table style="width:100%;">
-                                <tr>
-                                    <th>Class</th>
-                                    <th>Year</th>
-                                    <th>Percentage</th>
-                                </tr>
-                                <tr>
-                                    <td>SSLC</td>
-                                    <td>2016-2017</td>
-                                    <td>97.40%</td>
-                                </tr>
-                                <tr>
-                                    <td>HSC - I</td>
-                                    <td>2017-2018</td>
-                                    <td>81.16%</td>
-                                </tr>
-                                <tr>
-                                    <td>HSC-II</td>
-                                    <td>2018-2019</td>
-                                    <td>80.33%</td>
-                                </tr>
-                            </table>
+        
+
+            <div class="card shadow">
+
+                
+
+                <div class="card-header bg-primary">
+
+                    <div class="text-white">
+
+                        <div style="height:200px;width:210px;margin-right:32px;background-color:white;float:left;align-items:center;padding:10px">
+
+                            <img src="Tirugnanam.jpg" alt="photo" style="height:181px;width:190px;">
+
                         </div>
 
-                        <hr>
+                        <div style="margin-top:34px;">
 
-                        
-                        <a href="https://nec.edu.in/" target="_blank" title="View National Engineering College">
-                            <p style="color: teal; float: left; display: block; text-align: center; font-size: 20px"><i
-                                class='fas fa-user-graduate' style="padding:0px 10px 0px 15px;"></i>National Engineering
-                            College,
-                            Kovilpatti</p>
-                        </a>
-                        
-                        <div style="padding-left: 15px; padding-right: 45px;">
-                            <table style="width:100%">
-                                <tr>
-                                    <th>Course</th>
-                                    <th>Year</th>
-                                    <th>CGPA</th>
-                                </tr>
-                                <tr>
-                                    <td>B.E-CSE<br>(Pursing)</td>
-                                    <td>2019-2023</td>
-                                    <td>9.39</td>
-                                </tr>
-                            </table>
+                            <h1><b>TIRUGNANAM M</b></h1>
+
+                            <p>Software Developer</p>
+
+                            <p>Final Year - Computer Science and Engineering, National Engineering College</p>
+
+                            <button type="button" class="btn btn-light" style="border-radius:20px;">Download CV</button>
+
+                            <button type="button" class="btn btn-success" style="border-radius:20px;">Hire Me</button>
+
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="padding-top: 1500px; padding-bottom: 10px;">
-        <footer
-            style="background-color: teal; color: white; text-align: center; padding-top: 10px; padding-bottom: 10px; font-size: 20px;">
-            <p>Find my certificates on links below.</p>
-            <p><a href="D:\Zoho web page\10th.html" target="_blank" title="View SSLC Marksheet">Visit SSLC Marksheet</a>
-            </p>
-            <p><a href="D:\Zoho web page\11th.html" target="_blank" title="View HSC-I Marksheet">Visit HSC-I
-                    Marksheet</a></p>
-            <p><a href="D:\Zoho web page\12th.html" target="_blank" title="View HSC-II Marksheet">Visit HSC-II
-                    Marksheet</a></p>
 
-        </footer>
-    </div>
-</body>
+                    </div>
+
+                </div>
+
+                <div class="card-body bg-white">
+
+                    <div class="text-black text-left float-left">
+
+                        <h5><b>About Me</b></h5>
+
+                        <p>
+
+                            I'm TIRUGNANAM. <br>
+
+                            I'm passionate about Web Design and application development.<br>
+
+                            I'm a BEC certified person.
+                            
+                            I'm studying B.E CSE in National Engineering College.
+
+                        </p>
+
+                    </div>
+
+                    <div class="float-right">
+
+                        <table>
+
+                            <tr>
+
+                                <td>DOB</td>
+
+                                <td> &nbsp; 15.04.2002</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Email</td>
+
+                                <td><a href=""> &nbsp; 1912032@nec.edu.in</a></td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Phone</td>
+
+                                <td> &nbsp; 6380049955</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Location📍</td>
+
+                                <td> &nbsp; Tirunelveli</td>
+
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div> 
+
+                <div class="card-footer bg-white">
+
+                    <div class="">
+
+                        <h5><b>Professional Skills</b></h5>
+
+                        <table class="float-left">
+
+                            <tr>
+
+                                <td>HTML</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar" style="width:90%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>CSS</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar" style="width:90%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>core java</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar" style="width:70%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                        <table class="float-right">
+
+                            <tr>
+
+                                <td>Python</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar bg-success" style="width:80%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Core Java</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar bg-success" style="width:60%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>C++</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+
+                                    <div class="progress">
+
+                                        <div class="progress-bar bg-success" style="width:50%"></div>
+
+                                    </div>
+
+                                </td>
+
+                            </tr>
+
+                        </table> 
+
+                    </div>
+
+                </div><br> 
+
+            </div> 
+
+        </div>
+
+        
+
+    </body>
 
 </html>
+
+
+
