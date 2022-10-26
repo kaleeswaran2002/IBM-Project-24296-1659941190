@@ -1,274 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style>
-        *{
-    margin: 0;
-    font-family: sans-serif;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 100px 20px 100px;
-}
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-.box{
-    margin: 0px 100px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+<html>
+    <head>
+        <title> My Profile</title>
+        <link rel="icon" href="images/profile icon.jpg">
 
-.profile{
-    display: flex;
-    background-color: rgb(0, 183, 255);
-}
-.dp{
-    padding: 40px;
-    padding-left: 100px;
-}
-.intro{
-    padding: 60px;
-    color: rgba(60, 0, 255, 0.822);
-    padding-left: 100px;
-}
-.dp img{
-    height: 200px;
-    width: 200px;
-}
-.btn{
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 20px;
-    border: pink;
-    cursor: pointer;
-}
-.hire{
-    background-color: violet;
-    color: white;
-}
-.about{
-    display: flex;
-    
-    padding-bottom: 20px;
-}
-.about-content{
-   margin: 20px;
-}
-.personal-details{
-    width: 50%;
-    padding: 50px;
-    padding-left: 20px;
-}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
-.skills{
-    display: flex;
-}
-.technical,.soft{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: 20px;
-}
-.professionalskills{
-    background-color:white;
-}
-.topic{
-    margin-left: 20px;
-}
-.progbar{
-    height: 20px;
-    width: 500px;
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-}
-/*progress::-moz-progress-bar{background: pink;}
-progress::-webkit-progress-value{background: pink;}
-progress{color: pink;}
-progress{
-    -webkit-appearance: none;
-}
-progress[value]::-webkit-progress-bar{
-    background-color:pink;
-}
-progress[value]::-moz-progress-bar{
-    background-color:pink;
-}
-progress{
-    color: pink;
-}*/
-
-progress{
-    accent-color: rgb(55, 255, 0);
-}
-.edu{
-    padding: 20px;
-    border: 1px solid gray;
-    margin: 10px;
-    border-left: 2px solid paleturquoise;
-}
-.aaa{
-    margin: 20px;
-}
-.form, .details{
-    padding: 20px;
- 
-}
-
-.input-boxes{
-    padding: 10px;
-    margin-left: 10px;
-    width: 200px;
-}
-.message{
-    padding: 60px;
-    width: 340px;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    
-}
-.submit-btn{
-    padding: 8px 20px;
-    border-radius: 10px;
-    border: none;
-    margin: 10px;
-    margin-top:20px;
-    background-color: skyblue;
-    color: white;
-    cursor: pointer;
-    
-}
-.head{
-    color: #0f0f0f;
-}
-.gray{
-    color: grey;
-}
-.size{
-    font-size: 20px;
-}
-.footer{
-    text-align: center;
-    margin: 50px;
-}
-.vishnu{
-    font-family:Verdana ;
-}
-    </style>
-</head>
-<body>
-    <div class="wrapper">
-
-        <div class="box">
-            <div class="profile">
-                <div class="dp">
-                    <img src="kaleespic.jpg" alt="">
-                </div>
-                <div class="intro">
-                    <div class="name">
-                        <h1>KALEESWARAN M</h1>
-                        <br>
-                        <p>Software Developer</p>
-                        <br>
-                    </div>
-                    <div class="buttons">
-                        <button class="btn cv">Download CV</button>
-                        <button class="btn hire">Hire me</button>
-                    </div>
-                   
-
-                </div>
-            </div>
-            <div class="about">
-                <div class="about-content">
-                    <h1>ABOUT</h1>
-                    <br>
-                    <p>HI!I AM KALEESWARAN M FROM NATIONAL ENGINEERING COLLEGE,KOVILPATTI.</p>
-                    <P>I AM INTERESTED TO WORK IN A WEB DEVELOPMENT SIDE</P>
-                    <P>I AM A FULL STACK DEVELOPER</P>
-
-                </div>
-                            </div>
-            <div class="professionalskills">
-                <div class="topic">
-                    <h1>TECHNICAL SKILLS</h1>
-                </div>
-                <div class="skills">
-                    <div class="technical">
-                        <label for="HTML/CSS">HTML/CSS</label>
-                        <progress name="HTML/CSS" value="80" max="100"id="" class="progbar"></progress>
-                        <br>
-                        <label for="CORE JAVA">CORE JAVA</label>
-                        <progress name="CORE JAVA" value="90" max="100"id="" class="progbar"></progress>
-                        <br>
-                        <label for="SQL">SQL</label>
-                        <progress name="SQL" value="30" max="100"id="" class="progbar"></progress>
-
-                    </div>
-                    
-                    
-                </div>
-            </div>
-           
-            <div class="education details">
-                <div class="topic">
-                    <h1>EDUCATION DETAILS</h1>
-                </div>
-                <div class="education details">
-                        <ul>
-                            <li><div class="edu">
-                                <p><b class="size"> COMPUTER SCIENCE AND ENGINEERING </b>AT NATIONAL ENGINEERING COLLEGE</p>
-                                <br>
-                                
-                                <p class="KALEES">     CGPA-8.70 </p>
-                            </div></li>
-                            <li><div class="edu">
-                                <p> <b class="size"> CLASS 12TH </b> AT K.V.S.MATRICULATION HIGHER SECONDARY SCHOOL
-                                </p>
-                                <br>
-                                
-                                <p class="KALEES">     PERCENTAGE-72.16%  </p>
-                            </div></li>
-                            <li><div class="edu">
-                                <p><b class="size">CLASS 10TH</b> AT K.V.S.MATRICULATION HIGHER SECONDARY SCHOOL  </p>
-                                <br>
-                                
-                                <p class="KALEES">     PERCENTAGE-95.6% </p>
-                            </div></li>
-                        </ul>
-                </div>
-            </div>
-            <div class="contact">
-                <div class="topic">
-                    <h1>CONTACT DETAILS</h1>
-                </div>
-                <div class="aaa">
-                    <p><b>NAME      :</b>KALEESWARAN M</p>
-                    <br>
-                    <p><b>AGE</b>      :</b>20</p><BR>
-                    <p><b>GENDER</b>      :</b>MALE</p><BR>
-                    <p><b>MAIL ID</b>      :</b>kalees02102002@gmail.com</p><BR>
-                    <p><b>ADDRESS</b>      :</b>EAST STREET NANMENI</p><BR>
-                    <p><b>DISTRICT</b>      :</b>VIRUDHUNAGAR</p><BR>
-
-
-
-                    
-
-
+        <style>
+            .progress{
+                width: 440px;
+            }
+        </style>
+    </head>
+    <body> <br> <br>
+        <div class="container bg-white">
+            <b>KALEESWARAN M</b>
+            <div class="float-right">
+                <a href="https://www.instagram.com/narain.c.a/"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;
+                <a href="https://www.facebook.com/narain.ca.3/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp;
+                <a href="https://twitter.com/narain_c_a"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;
+                <a href="https://github.com/c-a-narain"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;
+            </div> <br> <br>
+        
+            <div class="card shadow">
                 
+                <div class="card-header bg-primary">
+                    <div class="text-white">
+                        <div style="height:200px;width:210px;margin-right:32px;background-color:white;float:left;align-items:center;padding:10px">
+                            <img src="kaleespic.jpg" alt="Girl in a jacket" style="height:181px;width:190px;">
+                        </div>
+                        <div style="margin-top:34px;">
+                            <h1><b>KALEESWARAN M</b></h1>
+                            <p>Software Developer</p>
+                            <p>Final Year - Computer Science and Engineering, National Engineering College</p>
+                            <button type="button" class="btn btn-light" style="border-radius:20px;">Download CV</button>
+                            <button type="button" class="btn btn-success" style="border-radius:20px;">Hire Me</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="card-body bg-white">
+                    <div class="text-black text-left float-left">
+                        <h5><b>About Me</b></h5>
+                        <p>
+                            I'm Kaleeswaran. <br>
+                            I'm passionate about Web Design and application development.<br>
+                            I'm a BEC certified person.
+                        </p>
+                    </div>
+                    <div class="float-right">
+                        <table>
+                            <tr>
+                                <td>DOB</td>
+                                <td> &nbsp; 02.10.2002</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><a href=""> &nbsp; kalees02102002@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td> &nbsp; 9384284241</td>
+                            </tr>
+                            <tr>
+                                <td>Location📍</td>
+                                <td> &nbsp; sattur</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div> 
+                <div class="card-footer bg-white">
+                    <div class="">
+                        <h5><b>Professional Skills</b></h5>
+                        <table class="float-left">
+                            <tr>
+                                <td>HTML</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:90%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:90%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>core java</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:70%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table class="float-right">
+                            <tr>
+                                <td>Python</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" style="width:80%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Core Java</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" style="width:60%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>C++</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" style="width:50%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>
+                </div><br> 
+            </div> 
         </div>
         
-    </div>
-</body>
+    </body>
 </html>
