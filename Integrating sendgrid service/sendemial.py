@@ -9,13 +9,13 @@ def sendmail(TEXT,email):
     print("sorry we cant process your candidature")
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("il.pradeepthi@gmail.com", "oms@1Ram")
+    s.login("il.kalees@gmail.com", "oms@1Ram")
     message  = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
-    s.sendmail("il.pradeepthi@gmail.com", email, message)
+    s.sendmail("il.kalees@gmail.com", email, message)
     s.quit()
 def sendgridmail(user,TEXT):
     sg = sendgrid.SendGridAPIClient('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')
-    from_email = Email("sandeep@thesmartbridge.com")  # Change to your verified sender
+    from_email = Email("ramesh@thesmartbridge.com")  # Change to your verified sender
     to_email = To(user)  # Change to your recipient
     subject = "Sending with SendGrid is Fun"
     content = Content("text/plain",TEXT)
