@@ -7,9 +7,8 @@ from sendgrid.helpers.mail import Mail, Email, To, Content
 SENDGRID_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # sendgrid
 
 conn = ibm_db.connect(
-    "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4db-850-3fbfa461c66.bs2io90l081od8lcg.databases.appdomain.cloud;PORT"
-    "=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc98967;PWD=wQioPYLq4Oanh0",
-    '', '')
+    "DATABASE=bludb;HOSTNAME=2d46b6b4-cbf6-40eb-bbce-6251e6ba0300.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=32328;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=gmz37043;PWD=5eCfk6YOpNcZhK1H",'','')
+
 
 print(conn)
 
@@ -21,7 +20,7 @@ app.secret_key = "\xfd{H\xe5<\x95\xf9\xe3\x96.5\xd1\x01O<!\xd5\xa2\xa0\x9fR"
 # sendgrid
 def send_mail(email):
     sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("xxxxxxxxxxxxxxxxxx@gmail.com")  # Change to your verified sender
+    from_email = Email("ramesh@gmail.com")  # Change to your verified sender
     to_email = To(email)  # Change to your recipient
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",
